@@ -1,38 +1,56 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+body{
+  background: url(https://images.unsplash.com/photo-1493246507139-91e8fad9978e?dpr=1.25&auto=format&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb&crop=&bg=);
+  background-size: cover;
   color: white;
+  font-family: Garamond;
 }
-
-.App-link {
-  color: #61dafb;
+.introduction{
+	text-align: center;	
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1{
+  font-family: 'Fugaz One', cursive;
+  font-size: 50px;
+  text-shadow: 5px 4px black, -1px -1px #444;
+}
+h2{
+  font-family: 'Fugaz One', cursive;
+  font-size: 20px;
+}
+a{
+  color: red;
+  text-decoration:underline;
+}
+a:hover{
+  color:black;
+  text-decoration:none;
+}
+p{
+  padding: 30px;
+  font-size: 20px;
+}
+button{
+	margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.6);
+  font-family: Garamond;
+}
+button:hover{
+  color: red;
+  border: 1px solid red;
+}
+.quotes{
+  background-color: gray;
+  width: 60%;
+  margin: 60px auto;
+  padding: 30px;
+  border: 3px solid white;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.9);
+  min-height:250px;
+  font-family: Courier;
+}
+.quote{
+    font-size:25px;
+}
+.author{
+  font-size: 20px;
 }
